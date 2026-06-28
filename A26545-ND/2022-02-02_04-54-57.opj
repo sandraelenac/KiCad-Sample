@@ -1,0 +1,31 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\2022-02-02_04-54-57.olb"
+      (Type "Schematic Library"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\2022-02-02_04-54-57.olb")
+      (Select "Design Resources" ".\2022-02-02_04-54-57.olb" "87224-3"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1235 130 473"))
+      (Path
+         "C:\USERS\SANDR\ONEDRIVE\DESKTOP\PSPICE\SENIOR DESIGN\A26545-ND\2022-02-02_04-54-57.OLB")
+      (Package "87224-3")
+      (PartType "1")))
+  (MPSSessionName "sandr"))

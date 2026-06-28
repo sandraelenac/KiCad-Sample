@@ -1,0 +1,147 @@
+(ExpressProject "REX_BETA_REV_A"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\rex_beta_rev_a.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\REX_BETA_REV_A.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Outputs"
+    (File ".\rex_beta_rev_a-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\rex_beta_rev_a-pspicefiles\schematic1\rex_beta_rev_a.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rex_beta_rev_a-pspicefiles\schematic1\rex_beta_rev_a.sim"
+        (DisplayName "SCHEMATIC1-REX_BETA_REV_A")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM317T
+      (FullPartName "LM317T.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\492\LM317T\2022-02-02_05-17-25.OLB")
+      (DeviceIndex "0"))
+    (87224-3
+      (FullPartName "87224-3.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\492\A26545-ND\2022-02-02_04-54-57.OLB")
+      (DeviceIndex "0"))
+    (MAX3747AEUB
+      (FullPartName "MAX3747AEUB.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\492\2021-11-04_03-51-51.OLB")
+      (DeviceIndex "0"))
+    (SN65LVDS100D
+      (FullPartName "SN65LVDS100D.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\492\2021-11-04_03-48-51.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\sandr\OneDrive\Desktop\CSUN\rex_beta_rev_a.dsn")
+      (Path "Design Resources"
+         "C:\Users\sandr\OneDrive\Desktop\CSUN\rex_beta_rev_a.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\sandr\OneDrive\Desktop\CSUN\rex_beta_rev_a.dsn"
+         "REX_ALPHA_REV_")
+      (Select "Design Resources"
+         "C:\Users\sandr\OneDrive\Desktop\CSUN\rex_beta_rev_a.dsn" "SCHEMATIC1"
+         "TIA"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 304"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 130 1261 130 436")
+        (Scroll "-129 0")
+        (Zoom "100"))
+      (Path "C:\USERS\SANDR\ONEDRIVE\DESKTOP\CSUN\REX_BETA_REV_A.DSN")
+      (Schematic "REX_ALPHA_REV_")
+      (Page "REV A"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1131 0 306")
+        (Scroll "-56 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\SANDR\ONEDRIVE\DESKTOP\CSUN\REX_BETA_REV_A.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "TIA")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2\tools\capture\library\pspice")
+  (ISPCBBASICLICENSE "false")
+  (Folder "Simulation Resources"
+    (Folder "Indesign"
+      (File ".\indesign\cds.lib"
+        (Type "Report")
+        (DisplayName ".\Indesign\cds.lib"))
+      (File ".\indesign\hdl.var"
+        (Type "Report")
+        (DisplayName ".\Indesign\hdl.var"))
+      (File ".\indesign\rex_beta_rev_a.vhd"
+        (Type "VHDL Source")
+        (DisplayName ".\Indesign\REX_BETA_REV_A.vhd"))
+      (File ".\indesign\stubi.vhd"
+        (Type "VHDL Source")
+        (DisplayName ".\Indesign\StubI.vhd"))
+      (File ".\indesign\sdf.cmd"
+        (Type "Report")
+        (DisplayName ".\Indesign\sdf.cmd"))))
+  (MPSSessionName "sandr"))

@@ -1,0 +1,48 @@
+
+**** 11/07/21 17:30:28 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-TIA_LMH6629"  [ c:\users\sandr\onedrive\desktop\csun\tia_lmh669_1-pspicefiles\schematic1\tia_lmh6629.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TIA_LMH6629.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.001s 0 0.0001 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TIA_LMH669_1
+R_R1         N00749 N00712  12k TC=0,0 
+V_V1         N00712 0  AC 0
++SIN 0 0.05 1k 0 0 0
+C_C1         N00749 N00712  0.6p  TC=0,0 
+V_V2         N00652 0 5V
+V_V3         0 N00881 5V
+R_R2         0 N00888  50 TC=0,0 
+R_R3         0 N00749  10k TC=0,0 
+V_V4         N00877 0 5V
+
+**** RESUMING TIA_LMH6629.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N00888.
+

@@ -1,0 +1,57 @@
+(ExpressProject "REX_ALPHA_REV_A"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\rex_alpha_rev_a.DSN"
+      (Type "Schematic Design")
+      (DisplayName ".\rex_alpha_rev_a.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "TRUE"))
+  (Folder "Outputs"
+    (File ".\rex_alpha_rev_a-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\rex_alpha_rev_a-pspicefiles\schematic1\alpha_reva.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rex_alpha_rev_a-pspicefiles\schematic1\alpha_reva.sim"
+        (DisplayName "SCHEMATIC1-ALPHA_REVA")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\sandr\onedrive\desktop\pspice\senior design\rex\alpha_reva\rex_alpha_rev_a.DSN")
+      (Path "Design Resources"
+         "c:\users\sandr\onedrive\desktop\pspice\senior design\rex\alpha_reva\rex_alpha_rev_a.DSN"
+         "SCHEMATIC1")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 368"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 182 1261 182 589")
+        (Scroll "0 242")
+        (Zoom "152")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SANDR\ONEDRIVE\DESKTOP\PSPICE\SENIOR DESIGN\REX\ALPHA_REVA\REX_ALPHA_REV_A.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "REVA")))
+  (PartMRUSelector)
+  (MPSSessionName "sandr"))

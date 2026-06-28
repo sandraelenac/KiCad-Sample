@@ -1,0 +1,10 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+c:/users/sandr/onedrive/desktop/pspice/senior design/rex/1
+    rex_beta_rev_a.opj
+    rex_beta_rev_a.dsn
+c:/users/sandr/onedrive/desktop/pspice/senior design/rex/1/rex_beta_rev_a-PSpiceFiles
+c:/users/sandr/onedrive/desktop/pspice/senior design/rex/1/rex_beta_rev_a-PSpiceFiles/REX_ALPHA_REV_
+c:/users/sandr/onedrive/desktop/pspice/senior design/rex/1/rex_beta_rev_a-PSpiceFiles/SCHEMATIC1

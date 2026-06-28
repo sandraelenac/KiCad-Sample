@@ -1,0 +1,18 @@
+* source REX_BETA_REV_A
+R_R1         N01729 N01543  12k TC=0,0 
+R_R2         GND N01729  50 TC=0,0 
+V_V2         N01773 GND 5V
+V_V3         N01793 GND 5V
+C_C1         N01729 N01543  0.6p  TC=0,0 
+R_R3         GND N01729  10k TC=0,0 
+V_V1         N01543 GND  AC 0
++SIN 0 0.05 1k 0 0 0
+V_V4         N01591 GND 5V
+C_C2         N02617 N02599  22nF  TC=0,0 
+C_C4         N03331 N03349  0.1u  TC=0,0 
+C_C5         N03312 N03324  0.1u  TC=0,0 
+R_R4         0 N03349  50 TC=0,0 
+R_R5         0 N03324  50 TC=0,0 
+V_V7         N02781 0 5V
+V_V8         N02617 0  AC 0
++SIN 0 0.05 1k 0 0 0

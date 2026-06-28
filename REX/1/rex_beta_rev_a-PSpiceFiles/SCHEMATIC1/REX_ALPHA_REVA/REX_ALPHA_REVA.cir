@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-REX_ALPHA_REVA"  [ c:\users\sandr\onedrive\desktop\pspice\senior design\rex\1\rex_beta_rev_a-PSpiceFiles\SCHEMATIC1\REX_ALPHA_REVA.sim ] 
+
+** Creating circuit file "REX_ALPHA_REVA.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
