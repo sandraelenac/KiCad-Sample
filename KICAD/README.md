@@ -186,7 +186,6 @@ Supported operating systems:
 
 Planned enhancements include:
 
-- Interactive Bill of Materials
 - 3D PCB renderings
 - Assembly drawings
 - Schematic PDF export
@@ -202,14 +201,3 @@ Planned enhancements include:
 **Sandra Castrejon**
 
 Electrical & Computer Engineer
-
-- B.S. Electrical & Computer Engineering
-- M.S. Electrical & Computer Engineering
-
----
-
-# License
-
-This repository is provided for educational and engineering reference purposes.
-
-Please add an appropriate open-source license before redistributing or modifying these designs.
