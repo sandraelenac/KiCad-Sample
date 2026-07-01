@@ -1,9 +1,4 @@
-# ECE501C-BankingDB
-
-- **Authors:** Alexander Gomes, Dominic Telles, Sandra Castrejon
-- **University:** The University of Arizona  
-- **Course:** ECE501 - Data Management
-- **Instructor:** Bo Liu 
+# Banking DB
 
 ---
 ## Table of Contents

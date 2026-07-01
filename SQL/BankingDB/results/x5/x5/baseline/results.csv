@@ -1,0 +1,21 @@
+query_id,query_name,rows,avg_s,min_s,max_s,mode,runs,warmup
+Q1,Q1_customer_lookup_by_name_prefix,2752,0.024759,0.022433,0.030721,baseline,5,1
+Q2,Q2_customer_lookup_top5_initials,2752,0.026550,0.023759,0.029663,baseline,5,1
+Q3,Q3_all_customers_and_account_counts,5000,0.030133,0.025085,0.034158,baseline,5,1
+Q4,Q4_account_balance_point_in_time,1,0.000305,0.000104,0.000493,baseline,5,1
+Q5,Q5_recent_activity_for_account,53,0.000375,0.000333,0.000457,baseline,5,1
+Q6,Q6_recent_activity_for_top_accounts_30d,1000,8.564298,6.142139,11.748112,baseline,5,1
+Q7,Q7_daily_txn_volume_by_branch,150,2.775992,2.601665,2.900164,baseline,5,1
+Q8,Q8_credits_vs_debits,150,3.409952,3.232810,3.966340,baseline,5,1
+Q9,Q9_top_customers_by_spend_last_90d,5000,4.976782,4.670027,5.562356,baseline,5,1
+Q10,Q10_multi_branch_usage_30d,5000,6.102469,5.472460,6.482268,baseline,5,1
+Q11,Q11_outstanding_loans_by_primary_branch,5,0.002009,0.001956,0.002134,baseline,5,1
+Q12,Q12_ Average APR by loan type,4,0.000231,0.000219,0.000264,baseline,5,1
+Q13,Q13_ Portfolio mix by principal,4,0.000260,0.000213,0.000356,baseline,5,1
+Q14,Q14_inactive_accounts_60d_by_branch,0,6.751516,6.009264,7.432924,baseline,5,1
+Q15,Q15_avg_txn_amount_by_category_30d,10,0.908497,0.811874,0.949701,baseline,5,1
+Q16,Q16_top_merchants_by_gross_volume_30d,12,0.789343,0.656422,0.872347,baseline,5,1
+Q17,Q17_branch_net_flow_by_week_90d,25,2.252886,1.394672,2.699088,baseline,5,1
+Q18,Q18_top_customers_by_inflow_30d,5000,3.157343,2.731665,3.479375,baseline,5,1
+Q19,Q19_card_status_by_brand,4,0.001387,0.001292,0.001606,baseline,5,1
+Q20,Q20_loan_payment_day_distribution_active,21,0.000154,0.000149,0.000172,baseline,5,1
