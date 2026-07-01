@@ -1,4 +1,4 @@
-# KiCad-Sample
+# Engineering Portfolio
 
 > A collection of electronic hardware design projects developed using both **KiCad** and **Cadence OrCAD Capture/PSpice**.
 
@@ -17,9 +17,8 @@ Each directory contains its own documentation describing the projects, file stru
 KICAD-SAMPLE/
 │
 ├── KICAD/
-│   ├── README.md
-│   ├── TAU REV F/
-│   └── TAU_REVG/
+│   ├── Loow Noise Amplifier (LNA)
+│   ├── RX Test ACQ Unit
 │
 ├── PSPICE/
 │   ├── README.md
@@ -37,7 +36,10 @@ KICAD-SAMPLE/
 │   ├── testlv.opj
 │   ├── TIA_LMH669_1.DSN
 │   └── TIA_LMH669_1.opj
-│
+|
+├── SQL/
+│   ├── README.md
+│   ├── Banking Data Base
 └── README.md
 ```
 
@@ -91,6 +93,9 @@ for complete documentation.
 
 ---
 
+## 📁 SQL
+
+---
 # Software Requirements
 
 ## KiCad Projects
